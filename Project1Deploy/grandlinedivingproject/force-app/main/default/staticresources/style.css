@@ -1,0 +1,15 @@
+:host {
+    --light-bg: #535353;
+    --dark-bg: #333;
+    --light-font:#959595;
+
+    --blue-accent: rgb(137, 221, 255);
+
+    --medium-font: medium;
+}
+
+.title {
+    font-size: xx-large;
+    color: rgb(137, 221, 255);
+    font-weight: bold;
+}

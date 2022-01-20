@@ -1,0 +1,36 @@
+@media screen and (max-width: 1000px) {
+
+    ul {
+      text-align: center;
+    }
+
+}
+
+.footer-container {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+
+    overflow: hidden;
+    background-color: var(--dark-bg);
+    color: white;
+}
+
+
+ul {
+    width: 100%;
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+li {
+    float:right;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+center {
+    color: var(--light-bg);
+}

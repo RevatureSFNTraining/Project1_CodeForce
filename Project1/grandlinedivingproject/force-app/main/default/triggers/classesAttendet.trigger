@@ -10,7 +10,6 @@ trigger classesAttendet on Class_Reservation__c (before delete) {
     List<Account> UpdateAcc = [SELECT Courses_Taken__c FROM Account WHERE Id IN :IdList];
 
     for (Account acc : UpdateAcc){
-
         acc.Courses_Taken__C += 1;
     }
 
