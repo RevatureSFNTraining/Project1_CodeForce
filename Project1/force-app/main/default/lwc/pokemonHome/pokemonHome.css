@@ -1,0 +1,15 @@
+*{box-sizing:border-box; color: rgb(255, 255, 255);}
+html{background-color: #2a2a2a;}
+span{font-size: xx-large;background-color: #2a2a2a;}
+nav{float:left; display:block; width:10%; font-weight:bold;padding:1em;margin-bottom: 45%;border-top: 5em;}
+nav ul {list-style-type: none; padding-left:0em;}
+nav a {text-decoration: none;display:block;text-align:center;font-weight:bold;border:3px;border-color:#d82f23;border-style:inset;padding:1em;margin-bottom:1em;background-color: #2a2a2a;}
+title{align-items: left;}
+h1{background-color: #2a2a2a;margin-right: 76%;}
+h2{background-color: #2a2a2a;text-align: center;margin-left: 30%;margin-right: 30%;}
+td{background-color: #2a2a2a;}
+input{color:black}
+.monPic{display: block; margin-left: 34.5%; margin-right: 34.5%;}
+.types{display: block ;text-align: center;margin-right: 10%;}
+.center{display: block; margin-left: auto; margin-right: auto;text-align: center;background-color: #2a2a2a;}
+.monName{background-color: #2a2a2a;}
