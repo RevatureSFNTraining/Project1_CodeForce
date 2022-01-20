@@ -1,0 +1,22 @@
+.title {
+    font-size: xx-large;
+    color: rgb(137, 221, 255);
+    font-weight: bold;
+}
+
+c-paginator {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+img {
+    float: left;
+    width: 300px;
+    margin: 10px;
+}
+
+span {
+    padding-left: 20%;
+}

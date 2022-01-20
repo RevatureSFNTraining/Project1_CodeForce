@@ -1,0 +1,14 @@
+<template><span class="title">Specials - {divetitle}</span>
+    <div>
+        <c-paginator
+            onprevious={handlePrevious}
+            onnext={handleNext}
+        ></c-paginator>
+    </div>
+
+     <p class="center"><!--<img data-id="A" src="{!$Resource.cavedive1}"> -->
+       {diveinfotextp1} <!-- <img data-id="B" src="../../../staticresources/cavedive2.jpg" style="float:right;"> -->
+     </p><br>
+     <p>{diveinfotextp2}</p>
+    <!-- add grey boxes to the bottom, for each number of page, evenly spaces, that light up blue when page is on them ig to show page number, also add hover effect on the buttons, also add a book now button ?  -->
+</template>
