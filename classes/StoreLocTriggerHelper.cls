@@ -9,6 +9,6 @@ public class StoreLocTriggerHelper {
                 defaultManagerList.add(s);
             }
         }
-        insert defaultManagerList;
+        //insert defaultManagerList;
     }
 }
