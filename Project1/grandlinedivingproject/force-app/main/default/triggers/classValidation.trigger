@@ -1,4 +1,4 @@
-trigger classValidation on Diving_Class__c (before insert, before update) {
+trigger classValidation on Diving_Class__c (before insert) {
     /* SOQL query for every meeting time, divide list by instructor */
 
     List<Diving_Class__c> currentClasses = [SELECT Instructor__c,Meeting_Time__c FROM Diving_Class__c];

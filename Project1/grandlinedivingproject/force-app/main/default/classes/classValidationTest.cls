@@ -75,8 +75,6 @@ public class classValidationTest {
         Database.SaveResult[] results = Database.insert(Dclass, false);
         Test.stopTest();
 
-        Integer Counter = 1;
-
         for (Database.SaveResult sr : results) {
                 System.assert(!sr.isSuccess());
                 System.assert(sr.getErrors().size() > 0);
@@ -86,12 +84,5 @@ public class classValidationTest {
         }
 
      }
-
-    // @isTest
-    // public static void permissionTest() {
-
-    // }
-
-
 
 }
