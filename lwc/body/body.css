@@ -1,0 +1,10 @@
+*:not(h1, label) {
+    font-size: 18px;
+}
+h1 {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+label {
+    font-size: 12px;
+}

@@ -1,0 +1,43 @@
+<template>
+    <!-- SLDS Grid -->
+    <div class="slds-grid slds-grid_vertical" style="margin-top: 50px;">
+        <!--
+        <div class="slds-col" 
+            style="background-image: radial-gradient(circle, lightyellow, lightgreen, transparent 65%);">
+            <span> 
+                <c-header></c-header> 
+            </span>
+        </div>
+        -->
+        <div class="slds-grid" style="height:650px;
+                        background-image: radial-gradient(circle, lightgrey, darkgrey, transparent 65%)">
+            <div class="slds-col slds-size_4-of-7">
+                <span> 
+                    <!-- Child Component for Body -->
+                    <c-body></c-body>
+                </span>
+            </div> 
+            <div class="slds-grid slds-grid_vertical" style="width: 500px">
+                <div class="slds-col">
+                    <span> 
+                        <!-- Child Component for Panel -->
+                        <c-panel></c-panel>
+                    </span>
+                </div>
+                <div class="slds-col">
+                    <span> 
+                        <!-- Child Component for Panel -->
+                        <c-panel></c-panel>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!--
+        <div class="slds-col" style="background-image: radial-gradient(circle, lightyellow, lightgreen, transparent 65%);">
+            <span> 
+                <c-footer></c-footer> 
+            </span>
+        </div>
+        -->
+    </div>
+</template>
