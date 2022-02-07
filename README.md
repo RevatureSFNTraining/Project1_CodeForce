@@ -2,6 +2,7 @@
 
 ***Project Description***
 
+Salesforce Development to create a customized experience using Lightning Web Components, with declarative support as well as Apex Classes & Triggers to further expand usability and functionality.
 
 
 ***Technology Used***
