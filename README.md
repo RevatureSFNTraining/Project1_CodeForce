@@ -18,6 +18,7 @@ Features
 Triggers :
 Field update from different object
 Customer Uniqueness
+
 LWC :
 Dynamically Rendered Service Information
 Utilizing SLDS to structure child components
