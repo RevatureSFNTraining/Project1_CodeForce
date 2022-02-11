@@ -6,11 +6,11 @@ Salesforce Development to create a customized experience using Lightning Web Com
 
 Technology Used
 
-Apex Triggers
-Apex Testing
-Lightning Web Components
-Service Cloud
-HTML
+Apex Triggers,
+Apex Testing,
+Lightning Web Components,
+Service Cloud,
+HTML,
 JavaScript
 
 Features
